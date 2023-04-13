@@ -2,6 +2,7 @@ import Brand from "../Brand";
 import ItemListContainer from "./ItemListContainer";
 import CartWidget from "../CartWidget";
 
+
 const NavBar = () => {
     return (
         <header>
@@ -11,11 +12,10 @@ const NavBar = () => {
 
             <nav className="containerItemList">
               <ItemListContainer 
-                 itemUno = "Hard"
-                 itemDos = "Pc Hogar"
-                 itemTres ="Pc Gaming"
-                 itemCuatro = "Notebooks"
-
+                 itemUno = "Procesadores"
+                 itemDos = "Motherboards"
+                 itemTres ="Fuentes"
+                 itemCuatro = "Placas de video"
               />
             </nav>
 
