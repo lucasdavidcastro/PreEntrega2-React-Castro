@@ -73,10 +73,12 @@
     background-color: blue;
     color: white;
     font-size: 20px;
-    border: none;
+    border: none;  
 }
+
 .buttons #detalles:hover{
     background-color: blue;
+    transform: scale(0.9);
 }
 
 .buttons #addCart{
